@@ -1,5 +1,7 @@
 function [learnableLayer,classLayer] = findLayersToReplace(lgraph)
-
+% Copyright 2018-2020 The MathWorks, Inc.
+%
+% Function Description
 % findLayersToReplace(lgraph) finds the single classification layer and the
 % preceding learnable (fully connected or convolutional) layer of the layer
 % graph lgraph.
