@@ -1,5 +1,7 @@
 function lgraph = createLgraphUsingConnections(layers,connections)
-
+% Copyright 2018-2020 The MathWorks, Inc.
+%
+% Function Description
 % lgraph = createLgraphUsingConnections(layers,connections) creates a layer
 % graph with the layers in the layer array |layers| connected by the
 % connections in |connections|.
