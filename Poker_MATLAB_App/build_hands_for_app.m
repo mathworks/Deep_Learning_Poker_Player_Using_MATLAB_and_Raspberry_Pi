@@ -1,6 +1,6 @@
 function [bet, finalHand] = build_hands_for_app(hand,nHand)
 %#codegen
-% Copyright 2020 The MathWorks, Inc.
+% Copyright 2018-2020 The MathWorks, Inc.
 
 rank = char(zeros(1,nHand));
 for k = 1:nHand
