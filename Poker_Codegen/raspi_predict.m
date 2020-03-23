@@ -1,6 +1,6 @@
 function aiBet = raspi_predict(net,imgSizeAdjusted)
 %#codegen
-% Copyright 2020 The MathWorks, Inc.
+% Copyright 2018-2020 The MathWorks, Inc.
 
 persistent fullset nIters hand table oppHand bank oppfullset;
 
