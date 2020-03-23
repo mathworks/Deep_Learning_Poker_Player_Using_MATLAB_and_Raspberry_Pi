@@ -1,3 +1,5 @@
+% Copyright 2018-2020 The MathWorks, Inc.
+
 %% Clear workspace and create webcam obj
 clear;
 cam = webcam;
