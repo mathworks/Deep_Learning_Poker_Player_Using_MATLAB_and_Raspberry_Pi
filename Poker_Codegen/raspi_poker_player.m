@@ -1,7 +1,6 @@
 function raspi_poker_player()
-% Function description 
-% Copyright 2020 The MathWorks, Inc.
 %#codegen
+% Copyright 2020 The MathWorks, Inc.
 
 %Create raspi & webcam obj. Conigure inpute pins 
 raspiObj = raspi();
