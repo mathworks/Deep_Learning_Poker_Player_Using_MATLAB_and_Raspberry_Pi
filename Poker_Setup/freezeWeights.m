@@ -1,5 +1,7 @@
 function layers = freezeWeights(layers)
-
+% Copyright 2018-2020 The MathWorks, Inc.
+%
+% Function Description
 % layers = freezeWeights(layers) sets the learning rates of all the
 % parameters of the layers in the layer array |layers| to zero.
 
