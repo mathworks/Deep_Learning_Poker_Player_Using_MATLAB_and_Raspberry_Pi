@@ -1,3 +1,5 @@
+% Copyright 2018-2020 The MathWorks, Inc.
+
 %% Clear workspace create image data store for classification
 clear;
 imds                       = imageDatastore('cards','IncludeSubfolders',true,'LabelSource','foldernames');
