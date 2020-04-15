@@ -24,9 +24,9 @@ Copy "identifyCards.mat" generated from Poker_Setup to this directory
 Deploy the MATLAB function "raspi_poker_player" to Raspberry using the following commands:
 
 
-t = targetHardware('Raspberry Pi')
-t.CoderConfig.TargetLang = 'C++'
-dlcfg = coder.DeepLearningConfig('arm-compute')
-dlcfg.ArmArchitecture = 'armv7'
-t.CoderConfig.DeepLearningConfig = dlcfg
-deploy(t,'raspi_poker_player')
+t = targetHardware('Raspberry Pi')  
+t.CoderConfig.TargetLang = 'C++'  
+dlcfg = coder.DeepLearningConfig('arm-compute')  
+dlcfg.ArmArchitecture = 'armv7'  
+t.CoderConfig.DeepLearningConfig = dlcfg  
+deploy(t,'raspi_poker_player')  
