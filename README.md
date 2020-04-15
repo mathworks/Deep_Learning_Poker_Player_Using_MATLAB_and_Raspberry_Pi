@@ -8,19 +8,19 @@ deployed to a Raspberry Pi hardware.
 This folder contains all the required files to generate a new dataset and train the classifier.
 
 To generate datasets for training, connect a webcam to your PC and run the script "generateCardData.m"
-Once card datasets are ready, run "transferLearnedCardset.m" for transferlearning
+Once card datasets are ready, run "transferLearnedCardset.m" for transferlearning.
 This will create "identifyCards.mat" where all DNN info are stored.
 
 # Poker_MATLAB_App:
 Source code for the MATLAB App version of the poker player
 
-Copy "identifyCards.mat" generated from Poker_Setup to this directory
-Run the MATLAB App
+Copy "identifyCards.mat" generated from Poker_Setup to this directory.
+Run the MATLAB App.
 
 # Poker_Codegen:
 Codegen capable MATLAB function that can be deployed to Raspberry Pi
 
-Copy "identifyCards.mat" generated from Poker_Setup to this directory
+Copy "identifyCards.mat" generated from Poker_Setup to this directory.
 Deploy the MATLAB function "raspi_poker_player" to Raspberry using the following commands:
 
 
