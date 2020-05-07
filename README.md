@@ -6,6 +6,9 @@ The poker-playing algorithm consists of a deep learning network that predicts th
 identifies ranked hands from the predictions and then makes bets like an actual player would. The algorithm can finally be 
 deployed to a Raspberry Pi hardware.
 
+# Prerequisite
+Configure the Raspberry Pi network, using the hardware-setup screen. During the this process, ensure that you download the MathWorks Raspbian image for deep learning.
+
 # Poker_Setup:
 This folder contains all the required files to generate a new dataset and train the classifier.
 
